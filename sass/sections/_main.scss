@@ -1,0 +1,15 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+.main__content{
+    @include flex(space-between,center);
+}
+.main__content h1{
+    text-align: center;
+}
+.main__content button{
+    padding:20px;
+    background-color: black;
+    color: white;
+    border:none;
+}
