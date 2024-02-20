@@ -1,3 +1,6 @@
+
+@use "./utilities/mixin.scss"
+.nav{
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 
@@ -44,4 +47,4 @@
   padding-top:2rem ;
   color:green;
   font-weight: bold;
-}
+  }
