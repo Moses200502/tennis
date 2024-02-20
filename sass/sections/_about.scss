@@ -1,0 +1,18 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/base" as *;
+@use "../utilities/variables" as *;
+
+.founder{
+    @include flex(space-between,center,center);
+    
+
+
+}
+.foundation{
+    @include flex(space-around,center,center);
+    background-color: aquamarine;
+    margin: 2em 1.5em;
+    text-align: center;
+    box-sizing: border-box;
+
+}

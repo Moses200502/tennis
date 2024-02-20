@@ -1,6 +1,5 @@
 
-@use "./utilities/mixin.scss"
-.nav{
+@use "../utilities/mixin" as *;
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 

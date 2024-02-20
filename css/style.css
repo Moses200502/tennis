@@ -11,6 +11,7 @@
 
 .nav__content {
   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -26,6 +27,7 @@
 }
 
 .nav__right ul {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,14 +53,6 @@
   margin-bottom: 4rem;
 }
 
-.path {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .h1 {
   text-align: center;
   color: black;
@@ -74,11 +68,8 @@
   font-weight: bold;
 }
 
-.header {
-  align-items: center;
-}
-
 .main__content {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,4 +86,26 @@
   background-color: black;
   color: white;
   border: none;
+}
+
+.founder {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: center;
+  flex-wrap: wrap;
+}
+
+.foundation {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: center;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  margin: 2em 1.5em;
+  text-align: center;
+  box-sizing: border-box;
 }
