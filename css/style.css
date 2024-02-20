@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.nav__right ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 1.5em;
+  display: block;
+}
+
+.nav__right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20em;
+  list-style-type: none;
+}
+
+.nav__rigth ul li {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.nav__right ul li a:hover {
+  color: blue;
+  background-color: green;
+}
+
+.hero__content {
+  background: url("../images/bg1.jpg") no-repeat center center/cover;
+  height: 100vh;
+  margin-bottom: 4rem;
+}
+
+.path {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+  padding-top: 5em;
+}
+
+.h2 {
+  text-align: center;
+  padding-top: 2rem;
+  color: green;
+  font-weight: bold;
+}
+
+.header {
+  align-items: center;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main__content h1 {
+  text-align: center;
+}
+
+.main__content button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}

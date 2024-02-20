@@ -1,4 +1,50 @@
+
 @use "./utilities/mixin.scss"
 .nav{
-    @include flex(space-between,center);
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+.nav__content {
+  @include flex(space-between, center);
+  gap: 2em;
 }
+
+.nav__right ul li a {
+  // @include flex(space-between,center);
+  text-decoration: none;
+  color: black;
+  padding: 1.5em;
+  display: block;
+}
+.nav__right ul {
+  @include flex(space-between,center);
+  gap: 20em;
+  list-style-type: none;
+}
+.nav__rigth ul li {
+  cursor: pointer;
+  font-size:3rem;
+}
+.nav__right ul li a:hover {
+  color: blue;
+  background-color:green;
+}
+.hero__content {
+  background: url("../images/bg1.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  margin-bottom: 4rem;
+}
+.h1{
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  font-size:4rem;
+  padding-top: 5em;
+}
+.h2{
+  text-align: center;
+  padding-top:2rem ;
+  color:green;
+  font-weight: bold;
+  }
