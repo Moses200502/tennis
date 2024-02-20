@@ -1,5 +1,5 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../sass/utilities/mixin" as *;
+@use "../sass/utilities/variables" as *;
 
 .main__content{
     @include flex(space-between,center);
@@ -12,4 +12,7 @@
     background-color: black;
     color: white;
     border:none;
+}
+.main{
+    text-align: center;
 }

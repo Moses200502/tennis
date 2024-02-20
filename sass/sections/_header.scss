@@ -1,5 +1,5 @@
-@use "../utilities/mixin" as *;
-@use "../utilities/variables" as *;
+@use "../sass/utilities/mixin" as *;
+@use "../sass/utilities/variables" as *;
 
 .nav__content {
   @include flex(space-between, center);
@@ -20,13 +20,13 @@
 }
 .nav__rigth ul li {
   cursor: pointer;
-  font-size:3rem;
+  font-size: 1em;
 }
 .nav__right ul li a:hover {
   color: blue;
-  background-color:green;
+  background-color: $grayish-blue;
 }
-.hero__content {
+.hero__content{
   background: url("../images/bg1.jpg") no-repeat center
     center/cover;
   height: 100vh;
@@ -34,7 +34,7 @@
 }
 .h1{
   text-align: center;
-  color:black;
+  color:green;
   font-weight: bold;
   font-size:4rem;
   padding-top: 5em;
@@ -42,6 +42,6 @@
 .h2{
   text-align: center;
   padding-top:2rem ;
-  color:green;
+  color:black;
   font-weight: bold;
 }
