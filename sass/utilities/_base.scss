@@ -1,0 +1,4 @@
+@use "../utilities/mixin.scs";
+.about-us {
+  @include flex (space-between,center)
+}
