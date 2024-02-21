@@ -10,10 +10,20 @@ padding-right: 10rem;
 .email{
     
     box-shadow: 0 4px grey;
+    
 }
-.container button{
+.container__button{
     background-color: black;
     color: white;
     padding: 2em 4em;
     margin: 2em 4em;
+    border:none;
+    border-radius: 1em;
+}
+.container__right{
+    @include flex(space-between,center,center);
+    border: 0.1em solid gray;
+    background-color:white;
+    padding:auto;
+    margin: auto;
 }
