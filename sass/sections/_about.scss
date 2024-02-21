@@ -1,0 +1,61 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/base" as *;
+@use "../utilities/variables" as *;
+
+.founder{
+    background:url(/images/contact-us-bg\ \(2\).jpg)no-repeat center center/cover;
+    height:50vh;
+    color: aliceblue;
+    font-size: 2em;
+    @include flex(center,center,column);
+    background-color: aqua,
+    
+
+
+}
+.foundation{
+    @include flex(center,center,column);
+    background-color: aquamarine;
+    color: blue;
+    margin: 4em 2em;
+    text-align: center;
+    box-sizing: border-box;
+
+    
+    ;
+}
+
+
+
+.vision{
+    // background-color:pink;
+    @include flex(space-around,center,);
+    flex-direction: column;
+    height:70vh;
+}
+
+.Objectives{
+    @include flex(space-between,center);
+    // height: 300vh;
+
+    background-color: red;
+    height: 50vh;
+
+    
+}
+.Objective__content{
+    @include flex(space-between,center,column);
+    // height: 50vh;
+    
+    font-size: 1.8em;
+
+}
+.resources{
+    ul{
+    @include flex(space-between,center);
+    li a{
+        text-decoration: none;
+    }
+    }
+
+}
