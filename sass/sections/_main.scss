@@ -1,18 +1,27 @@
-@use "../sass/utilities/mixin" as *;
-@use "../sass/utilities/variables" as *;
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
 
 .main__content{
     @include flex(space-between,center);
 }
-.main__content h1{
+.main__content h4{
+    font-size: 2em;
     text-align: center;
 }
 .main__content button{
+    text-align: center;
+    margin-top: 2em;
     padding:20px;
     background-color: black;
     color: white;
     border:none;
 }
+button{
+    @include flex(center,center);
+    
+}
 .main{
     text-align: center;
+    font-size: 2em;
+    margin-bottom: 2.5em;
 }
