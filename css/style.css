@@ -39,12 +39,12 @@
 
 .nav__rigth ul li {
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 1em;
 }
 
 .nav__right ul li a:hover {
   color: blue;
-  background-color: green;
+  background-color: hsl(208, 11%, 55%);
 }
 
 .hero__content {
@@ -55,7 +55,7 @@
 
 .h1 {
   text-align: center;
-  color: black;
+  color: green;
   font-weight: bold;
   font-size: 4rem;
   padding-top: 5em;
@@ -64,7 +64,7 @@
 .h2 {
   text-align: center;
   padding-top: 2rem;
-  color: green;
+  color: black;
   font-weight: bold;
 }
 
@@ -86,6 +86,10 @@
   background-color: black;
   color: white;
   border: none;
+}
+
+.main {
+  text-align: center;
 }
 
 .founder {
@@ -174,4 +178,8 @@
   color: white;
   padding: 2em 4em;
   margin: 2em 4em;
+}
+
+footer {
+  background-color: aqua;
 }
