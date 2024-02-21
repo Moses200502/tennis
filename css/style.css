@@ -11,6 +11,7 @@
 
 .nav__content {
   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -26,6 +27,7 @@
 }
 
 .nav__right ul {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,10 +66,12 @@
   padding-top: 2rem;
   color: black;
   font-weight: bold;
+
   font-size: 2rem;
 }
 
 .main__content {
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +89,77 @@
   color: white;
   border: none;
 }
+
+.founder {
+  background: url(/images/contact-us-bg\ \(2\).jpg) no-repeat center center/cover;
+  height: 50vh;
+  color: aliceblue;
+  font-size: 2em;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.foundation {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  color: blue;
+  margin: 4em 2em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.vision {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.Objectives {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: red;
+  height: 50vh;
+}
+
+.Objective__content {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.8em;
+}
+
+.resources ul {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resources ul li a {
+  text-decoration: none;
 .main{
   margin-bottom: 3rem;
   font-size: 3em;
@@ -98,4 +173,5 @@
 .main__items img{
   margin-top: 2em;
   margin-left:10rem;
+
 }
