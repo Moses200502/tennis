@@ -12,10 +12,11 @@
   color: black;
   padding: 1.5em;
   display: block;
+  font-size:1.16em;
 }
 .nav__right ul {
   @include flex(space-between,center);
-  gap: 20em;
+  gap:15em;
   list-style-type: none;
 }
 .nav__rigth ul li {
