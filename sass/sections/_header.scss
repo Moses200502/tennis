@@ -1,11 +1,9 @@
-
 @use "../utilities/mixin" as *;
 
-@use "../sass/utilities/mixin" as *;
-@use "../sass/utilities/variables" as *;
+@use "../utilities/base" as *;
+@use "../utilities/variables" as *;
 
-@use "./utilities/mixin.scss"
-.nav{
+@use "../utilities/mixin.scss";
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 
@@ -22,7 +20,7 @@
   display: block;
 }
 .nav__right ul {
-  @include flex(space-between,center);
+  @include flex(space-between, center);
   gap: 20em;
   list-style-type: none;
 }
@@ -34,22 +32,21 @@
   color: blue;
   background-color: $grayish-blue;
 }
-.hero__content{
-  background: url("../images/bg1.jpg") no-repeat center
-    center/cover;
+.hero__content {
+  background: url("../images/bg1.jpg") no-repeat center center/cover;
   height: 100vh;
   margin-bottom: 4rem;
 }
-.h1{
+.h1 {
   text-align: center;
-  color:green;
+  color: green;
   font-weight: bold;
-  font-size:4rem;
+  font-size: 4rem;
   padding-top: 5em;
 }
-.h2{
+.h2 {
   text-align: center;
-  padding-top:2rem ;
-  color:black;
+  padding-top: 2rem;
+  color: black;
   font-weight: bold;
-  }
+}

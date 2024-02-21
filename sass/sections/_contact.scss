@@ -1,0 +1,19 @@
+.form{
+    // @include flex(center,center);
+    input{
+    margin:2em 4em;
+    padding: 2rem 3rem;
+padding-right: 10rem;
+
+}
+}
+.email{
+    
+    box-shadow: 0 4px grey;
+}
+.container button{
+    background-color: black;
+    color: white;
+    padding: 2em 4em;
+    margin: 2em 4em;
+}
