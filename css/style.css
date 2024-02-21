@@ -109,8 +109,7 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: aquamarine;
-  color: blue;
+  color: black;
   margin: 4em 2em;
   text-align: center;
   box-sizing: border-box;
@@ -132,9 +131,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: center;
   flex-wrap: wrap;
-  background-color: red;
+  background-color: green;
   height: 50vh;
 }
 
@@ -158,4 +157,17 @@
 }
 .resources ul li a {
   text-decoration: none;
+}
+
+.form input {
+  margin: 2em 4em;
+  padding: 2rem 3rem;
+  padding-right: 10rem;
+}
+
+.container button {
+  background-color: black;
+  color: white;
+  padding: 2em 4em;
+  margin: 2em 4em;
 }

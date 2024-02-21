@@ -15,8 +15,8 @@
 }
 .foundation{
     @include flex(center,center,column);
-    background-color: aquamarine;
-    color: blue;
+    // background-color: aquamarine;
+    color:black;
     margin: 4em 2em;
     text-align: center;
     box-sizing: border-box;
@@ -35,10 +35,10 @@
 }
 
 .Objectives{
-    @include flex(space-between,center);
+    @include flex(space-between,center,center);
     // height: 300vh;
 
-    background-color: red;
+    background-color:green;
     height: 50vh;
 
     
