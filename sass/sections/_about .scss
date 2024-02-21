@@ -1,13 +1,14 @@
-
 @use "../utilities/mixin.scs";
 .about-us {
   @include flex (space-between,center)
-*{
-    margin:0;
-    padding:0;
+  
+}
+.about-us{
+    background-color: red;
     box-sizing: border-box;
+    box-shadow: 2em;
 }
-.container{
-    margin:0 auto;
-    width:90%;
+body{
+    background-color: green;
 }
+

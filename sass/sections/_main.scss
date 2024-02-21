@@ -1,5 +1,8 @@
+
 @use "../sass/utilities/mixin" as *;
 @use "../sass/utilities/variables" as *;
+./utilities/mixin" as *;
+@use "../utilities/variables" as *;
 
 .main__content{
     @include flex(space-between,center);
