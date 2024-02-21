@@ -1,5 +1,4 @@
 .form{
-    // @include flex(center,center);
     input{
     margin:2em 4em;
     padding: 2rem 3rem;
@@ -12,18 +11,24 @@ padding-right: 10rem;
     box-shadow: 0 4px grey;
     
 }
-.container__button{
+.container__right{
+    button{
     background-color: black;
-    color: white;
+    color:grey;
     padding: 2em 4em;
     margin: 2em 4em;
     border:none;
     border-radius: 1em;
+    }
 }
 .container__right{
-    @include flex(space-between,center,center);
     border: 0.1em solid gray;
-    background-color:white;
+    background-color:green;
+    width: 50%;
     padding:auto;
     margin: auto;
 }
+
+.container__contact{
+    @include flex(center,center);
+    }
