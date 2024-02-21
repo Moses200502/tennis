@@ -39,12 +39,12 @@
 
 .nav__rigth ul li {
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 1em;
 }
 
 .nav__right ul li a:hover {
   color: blue;
-  background-color: green;
+  background-color: hsl(208, 11%, 55%);
 }
 
 .hero__content {
@@ -55,7 +55,7 @@
 
 .h1 {
   text-align: center;
-  color: black;
+  color: green;
   font-weight: bold;
   font-size: 4rem;
   padding-top: 5em;
@@ -64,8 +64,10 @@
 .h2 {
   text-align: center;
   padding-top: 2rem;
-  color: green;
+  color: black;
   font-weight: bold;
+
+  font-size: 2rem;
 }
 
 .main__content {
@@ -158,4 +160,18 @@
 }
 .resources ul li a {
   text-decoration: none;
+.main{
+  margin-bottom: 3rem;
+  font-size: 3em;
+  text-align: center;
+}
+.main__items h4{
+  margin-top:2em;
+  text-align: center;
+  font-size:3em ;
+}
+.main__items img{
+  margin-top: 2em;
+  margin-left:10rem;
+
 }
