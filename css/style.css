@@ -42,7 +42,7 @@
 
 .nav__right ul li a:hover {
   color: blue;
-  background-color: hsl(208, 11%, 55%);
+  background-color: green;
 }
 
 .hero__content {
@@ -83,7 +83,7 @@
   text-align: center;
   margin-top: 2em;
   padding: 20px;
-  background-color: black;
+  background-color: green;
   color: white;
   border: none;
 }
