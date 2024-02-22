@@ -4,7 +4,7 @@
 
 .nav__content {
   @include flex(space-between, center);
-  gap: 2em;
+  gap:2em;
 }
 
 .nav__right ul li a {
@@ -17,8 +17,6 @@
 }
 .nav__right ul {
   @include flex(space-between,center);
-  gap:15em;
-  gap: 20em;
   list-style-type: none;
 }
 .nav__rigth ul li {
@@ -46,4 +44,18 @@
   padding-top: 2rem;
   color: black;
   font-weight: bold;
+}
+@media  screen and (max-wdth:414px) {
+  .nav__content{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    // gap:5em;
+}
+ 
 }
