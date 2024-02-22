@@ -6,7 +6,7 @@
     background:url(/images/contact-us-bg\ \(2\).jpg)no-repeat center center/cover;
     height:50vh;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 1.2em;
     @include flex(center,center,column);
     background-color: aqua,
     
@@ -32,6 +32,8 @@
     @include flex(space-around,center,);
     flex-direction: column;
     height:70vh;
+
+    
 }
 
 .Objectives{
@@ -45,9 +47,7 @@
 }
 .Objective__content{
     @include flex(space-between,center,column);
-    // height: 50vh;
-    
-    font-size: 1.8em;
+    font-size: 1.5em;
 
 }
 .resources{
@@ -58,4 +58,13 @@
     }
     }
 
+}
+@media  screen and (max-width:414px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }  
+    
 }

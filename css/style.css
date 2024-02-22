@@ -101,7 +101,7 @@
   background: url(/images/contact-us-bg\ \(2\).jpg) no-repeat center center/cover;
   height: 50vh;
   color: aliceblue;
-  font-size: 2em;
+  font-size: 1.2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .resources ul {
@@ -162,10 +162,19 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 414px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
 .form input {
   margin: 2em 4em;
   padding: 2rem 3rem;
   padding-right: 10rem;
+  border: 0.1em solid gray;
 }
 
 .email {
@@ -174,7 +183,7 @@
 
 .container__contact {
   margin: 2rem 1.2rem;
-  padding: 2rem 3rem;
+  border: 0.1em solid gray;
 }
 
 .container__right button {
@@ -199,6 +208,14 @@
   padding: 2rem 2rem;
 }
 
+@media screen and (max-width: 414px) {
+  .nav__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
 .footer {
   display: flex;
   justify-content: center;
