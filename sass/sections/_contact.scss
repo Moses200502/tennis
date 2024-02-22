@@ -12,13 +12,14 @@ padding-right: 10rem;
     
 }
 .container__right{
-    button{
-    background-color: black;
-    color:grey;
-    padding: 2em 4em;
-    margin: 2em 4em;
+   button{
+    background-color:black;
+
+    color:white;
+    padding: 4em 6em;
+    margin: 6em 4em;
     border:none;
-    border-radius: 1em;
+    border-radius: 2em;
     }
 }
 .container__right{
@@ -29,6 +30,3 @@ padding-right: 10rem;
     margin: auto;
 }
 
-.container__contact{
-    @include flex(center,center);
-    }

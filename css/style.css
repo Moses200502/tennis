@@ -174,11 +174,11 @@
 
 .container__right button {
   background-color: black;
-  color: grey;
-  padding: 2em 4em;
-  margin: 2em 4em;
+  color: white;
+  padding: 4em 6em;
+  margin: 6em 4em;
   border: none;
-  border-radius: 1em;
+  border-radius: 2em;
 }
 
 .container__right {
@@ -187,10 +187,6 @@
   width: 50%;
   padding: auto;
   margin: auto;
-}
-
-.container__contact {
-  @i;
 }
 
 .footer {
