@@ -5,6 +5,7 @@
     padding-right: 10rem;
     border: 0.1em solid gray;
     border-radius: 2em;
+
   }
 }
 .email {
@@ -24,10 +25,6 @@
     border-radius: 2em;
     cursor: pointer;
 }
-// .container__rightbutton:hover{
-//     background-color: green;
-//     color:black
-// }
 }
 .container__right {
   border: 0.1em solid gray;
@@ -54,6 +51,10 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align: center;
+    align-items: center center;
+
+
   }
 }
+
+
