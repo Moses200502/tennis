@@ -17,7 +17,7 @@
 color:green
 }
 .foundation{
-    background: url(/images/download.jpeg)no-repeat center center/cover;
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/download.jpeg)no-repeat center center/cover;
     @include flex(center,center,column);
     // background-color: aquamarine;
     color:white;
@@ -80,6 +80,10 @@ color:green
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
+}
+.nav__content{
+    width: 100%;
+}
   }  
     
-}
