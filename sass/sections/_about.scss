@@ -6,23 +6,38 @@
     background:url(/images/contact-us-bg\ \(2\).jpg)no-repeat center center/cover;
     height:50vh;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 1.2em;
     @include flex(center,center,column);
-    background-color: aqua,
+    background-color: aqua;
+    font-size: xx-large;
     
-
-
+    
+}
+.founder h2{
+color:green
 }
 .foundation{
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/download.jpeg)no-repeat center center/cover;
     @include flex(center,center,column);
     // background-color: aquamarine;
-    color:black;
-    margin: 4em 2em;
+    color:white;
+    font-weight: bolder;
+    font-size:x-large;
+    margin: 7rem 6rem;
     text-align: center;
     box-sizing: border-box;
-
-    
-    ;
+}
+.foundation h2{
+    color:lightgreen;
+    margin: 2rem 2.1rem;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.foundation h3{
+    color: lightgreen;
+    margin: 2rem 2rem;
+    font-weight: bold;
+    font-size: large;
 }
 
 
@@ -32,6 +47,8 @@
     @include flex(space-around,center,);
     flex-direction: column;
     height:70vh;
+
+    
 }
 
 .Objectives{
@@ -45,9 +62,7 @@
 }
 .Objective__content{
     @include flex(space-between,center,column);
-    // height: 50vh;
-    
-    font-size: 1.8em;
+    font-size: 1.5em;
 
 }
 .resources{
@@ -59,3 +74,16 @@
     }
 
 }
+@media  screen and (max-width:414px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.nav__content{
+    width: 100%;
+}
+  }  
+    
