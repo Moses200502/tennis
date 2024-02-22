@@ -1,52 +1,59 @@
-.form{
-    
-    input{
-    margin:2em 4em;
+.form {
+  input {
+    margin: 2em 4em;
     padding: 2rem 3rem;
-padding-right: 10rem;
-border: 0.1em solid gray;
-}
-}
-.email{
-    
-    box-shadow: 0 4px grey;
-
-    
-}
-.container__contact{
-    margin: 2rem 1.2rem;
-border: 0.1em solid gray;
-
-
-}
-.container__right{
-   button{
-    background-color:black;
-    color:white;
-    padding: 4em 6em;
-    margin: 6em 4em;
-    border:none;
-    border-radius: 2em;
-    }
-}
-.container__right{
+    padding-right: 10rem;
     border: 0.1em solid gray;
-    background-color:green;
-    width: 50%;
-    padding: 2rem 1rem;
-    margin: 3rem 2.1rem;
+    border-radius: 2em;
+  }
+}
+.email {
+  box-shadow: 0 4px grey;
+}
+.container__contact {
+  margin: 2rem 1.2rem;
+  border: 0.1em solid gray;
+}
+.container__right {
+  button {
+    background-color: black;
+    color: white;
+    padding: 2em 4em;
+    margin: 6em 6em;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+// .container__rightbutton:hover{
+//     background-color: green;
+//     color:black
+// }
+}
+.container__right {
+  border: 0.1em solid gray;
+  background-color: green;
+  width: 50%;
+  padding: 2rem 1rem;
+  margin: 3rem 2.1rem;
 }
 
-.git__touch{
-    margin: 2rem 2rem;
-    padding: 2rem 2rem;
+.git__touch {
+  margin: 2rem 2rem;
+  padding: 2rem 2rem;
+  font-size: medium;
+  font-weight: bold;
 }
-@media  screen and (max-width:414px){ 
-    .nav__content{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
-    }
+.git__touch h3 {
+  color: green;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 414px) {
+  .nav__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}

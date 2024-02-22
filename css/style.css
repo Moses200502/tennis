@@ -108,18 +108,40 @@
   flex-direction: column;
   flex-wrap: nowrap;
   background-color: aqua;
+  font-size: xx-large;
+}
+
+.founder h2 {
+  color: green;
 }
 
 .foundation {
+  background: url(/images/download.jpeg) no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  color: black;
-  margin: 4em 2em;
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 7rem 6rem;
   text-align: center;
   box-sizing: border-box;
+}
+
+.foundation h2 {
+  color: lightgreen;
+  margin: 2rem 2.1rem;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.foundation h3 {
+  color: lightgreen;
+  margin: 2rem 2rem;
+  font-weight: bold;
+  font-size: large;
 }
 
 .vision {
@@ -175,6 +197,7 @@
   padding: 2rem 3rem;
   padding-right: 10rem;
   border: 0.1em solid gray;
+  border-radius: 2em;
 }
 
 .email {
@@ -189,10 +212,11 @@
 .container__right button {
   background-color: black;
   color: white;
-  padding: 4em 6em;
-  margin: 6em 4em;
+  padding: 2em 4em;
+  margin: 6em 6em;
   border: none;
   border-radius: 2em;
+  cursor: pointer;
 }
 
 .container__right {
@@ -206,6 +230,15 @@
 .git__touch {
   margin: 2rem 2rem;
   padding: 2rem 2rem;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.git__touch h3 {
+  color: green;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 1em;
 }
 
 @media screen and (max-width: 414px) {

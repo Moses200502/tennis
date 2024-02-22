@@ -8,21 +8,36 @@
     color: aliceblue;
     font-size: 1.2em;
     @include flex(center,center,column);
-    background-color: aqua,
+    background-color: aqua;
+    font-size: xx-large;
     
-
-
+    
+}
+.founder h2{
+color:green
 }
 .foundation{
+    background: url(/images/download.jpeg)no-repeat center center/cover;
     @include flex(center,center,column);
     // background-color: aquamarine;
-    color:black;
-    margin: 4em 2em;
+    color:white;
+    font-weight: bolder;
+    font-size:x-large;
+    margin: 7rem 6rem;
     text-align: center;
     box-sizing: border-box;
-
-    
-    ;
+}
+.foundation h2{
+    color:lightgreen;
+    margin: 2rem 2.1rem;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.foundation h3{
+    color: lightgreen;
+    margin: 2rem 2rem;
+    font-weight: bold;
+    font-size: large;
 }
 
 
