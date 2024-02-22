@@ -172,6 +172,11 @@
   box-shadow: 0 4px grey;
 }
 
+.container__contact {
+  margin: 2rem 1.2rem;
+  padding: 2rem 3rem;
+}
+
 .container__right button {
   background-color: black;
   color: white;
@@ -185,8 +190,13 @@
   border: 0.1em solid gray;
   background-color: green;
   width: 50%;
-  padding: auto;
-  margin: auto;
+  padding: 2rem 1rem;
+  margin: 3rem 2.1rem;
+}
+
+.git__touch {
+  margin: 2rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .footer {
